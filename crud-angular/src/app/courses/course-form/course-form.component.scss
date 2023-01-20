@@ -1,0 +1,21 @@
+mat-card{
+  max-width: 80%;
+  margin: 2em auto;
+}
+
+mat-divider {
+  margin-block: 1em;
+}
+
+mat-card-actions {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 10px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.full-width {
+  width: 100%;
+}
