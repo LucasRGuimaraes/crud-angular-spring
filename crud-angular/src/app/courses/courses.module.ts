@@ -14,7 +14,6 @@ import { CoursesListComponent } from './components/courses-list/courses-list.com
   imports: [
     CommonModule,
     CoursesRoutingModule,
-    AppMaterialModule,
     SharedModule,
     ReactiveFormsModule,
   ],

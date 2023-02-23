@@ -8,6 +8,11 @@ const routes: Routes = [
     loadChildren: () =>
       import('./courses/courses.module').then((module) => module.CoursesModule),
   },
+  {
+    path: 'listagemteste',
+    loadChildren: () =>
+      import('./listagemteste/listagem.module').then((module) => module.ListagemModule),
+  },
 ];
 
 @NgModule({

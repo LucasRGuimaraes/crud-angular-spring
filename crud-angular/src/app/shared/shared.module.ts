@@ -9,6 +9,6 @@ import { ConfirmationDialogComponent } from './components/confirmation-dialog/co
 @NgModule({
   declarations: [ErrorDialogComponent, CategoryPipe, ConfirmationDialogComponent],
   imports: [CommonModule, AppMaterialModule],
-  exports: [ErrorDialogComponent, CategoryPipe, ConfirmationDialogComponent],
+  exports: [ErrorDialogComponent, CategoryPipe, ConfirmationDialogComponent, AppMaterialModule],
 })
 export class SharedModule {}
